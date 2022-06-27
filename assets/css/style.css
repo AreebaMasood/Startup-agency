@@ -1,0 +1,989 @@
+body{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+     
+
+}
+body a{
+    outline: none !important;
+}
+.container{
+    max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  width: 100%;
+}
+ #header{
+    z-index: 1030;
+  position: fixed; 
+width: 100%;
+    background-color: transparent;
+}
+.header-body{
+    
+    position: relative;
+   
+   
+} 
+
+
+.header-row{
+   
+    width: 100%;
+    display: inline-flex;
+    
+   
+}
+.header-nav{
+    
+    display: inline-block;
+    max-width: 100%;
+    align-self: stretch;
+    justify-content: space-between;
+}
+.social-icons{
+align-items: flex-end;
+}
+
+    .header-logo{
+        justify-content: center;
+      display: flex;
+      align-self: stretch;
+      flex-grow: 1;
+   
+    padding-top: 2.2rem;
+    }
+    .nav{
+       
+        text-decoration: none;
+        font-weight: 600;
+        justify-content: flex-end;
+        width: 100%;
+        flex-wrap: wrap;
+     align-self: stretch;
+     
+
+    }
+    
+    .navbar-nav a{
+        margin-left: 25px;
+       
+    }
+    .nav-link {
+        color: black !important;
+    } 
+    .right-nav{
+        display: inline-flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .social-icons{
+        padding-top:2.4rem;
+      
+    }
+    .social-icons img{
+        width: 20px;
+        margin-left: 15px;
+
+    }
+    .header-contact{
+justify-content: center;
+padding-top: 2.3rem;
+padding-left: 25px;
+
+    }
+    .header-contact a{
+        color: black !important;
+        font-size: 1.15em;
+    }
+
+    /* <---------------Home-------------> */
+    .background-image{
+        background-image: url(../img/startup-agency/backgrounds/morphing-bg-1.jpg);
+    background-size: cover;
+    max-width: 100%;
+   height: 42rem;
+    }
+    .home-h1{
+       padding-top: 10rem;
+        font-weight: 900;
+        font-size: 3em !important;
+       
+    }
+    .home-h2{
+       
+        font-weight: 600;
+        font-size: 2.3em !important;
+    }
+    .home-p{
+       padding-top: 20px;
+        font-size: 1.3em;
+        color: #777;
+   
+    
+    }
+    .home-btn{
+    position: relative;
+   
+    top: 12px;
+    background: linear-gradient(135deg,#0088cc 0%,#504bfd 80%)!important;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius:0.25rem ;
+    text-decoration: none;
+    }
+       /* <---------------About-------------> */
+       #about{
+           width: 100%;
+          
+       }
+       #about img{
+           z-index: 1 !important;
+           max-width: 100%;
+           height: auto;
+       }
+       .custom-svg-wrapper-1 {
+        position: relative;
+    }
+    .about-span{
+        color: #969696!important;
+        letter-spacing: 2px!important;
+        font-size: 1.15em !important;
+    }
+    .about-h2{
+        font-size: 2.75em!important;
+        font-weight: 700;
+        line-height: 42px;
+    margin: 0 0 32px;
+    color: #212529;
+    letter-spacing: -.05em;
+    }
+    .about-p{
+        font-size: 1.4em !important;
+        font-family: 'Playfair Display', sans-serif !important;
+        line-height: 1.6!important;
+        padding-bottom: 0.5rem!important;
+        color: #777;
+    }
+    .about-p2{
+        font-size: 1.15em !important;
+        font-weight: 300!important;
+        padding-bottom: 0.5rem!important;
+        color: #777;
+    line-height: 26px;
+    margin: 0 0 20px;
+
+    }
+    
+        .btn-gradient:not(.btn-outline) {
+            background: linear-gradient(135deg,#0088cc 0%,#504bfd 80%)!important;
+            color: #fff;
+            border: 0;
+            font-size: 1em!important;
+            font-weight: 700;
+            padding-bottom: 1em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+
+    }
+    /* <!-- <---------------Team-------------> */
+    #team{
+        background-color: rgb(239, 238, 238);
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+    }
+    
+    .team-row{
+        justify-content: center;
+        position: relative;
+       
+    }
+    .team-column-1{
+        text-align: center;
+    }
+    .team-span{
+        font-size: 1.15em !important;
+        font-weight: 500!important;
+        color: #969696!important;
+        letter-spacing: 2px!important;
+
+}
+.team-h2{
+    line-height: 42px;
+    margin: 0 0 32px;
+    color: #212529;
+    letter-spacing: -.05em;
+    font-weight: 700;
+    font-size: 2.75em;
+}
+.team-p{
+    font-size: 1.15em !important;
+    font-weight: 300!important;
+    color: #777;
+    line-height: 26px;
+    margin: 0 0 20px;
+    
+}
+.thumb-info {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0,0,0);}
+    .thumb-info-wrapper{
+        font-size: 14px;
+    line-height: 26px;
+    }
+    .card-group h3{
+        font-size: 1.5em;
+        line-height: 26px;
+        font-weight: 700;
+        text-transform: capitalize;
+        line-height: 1;
+        text-align: center;
+        color: #212529;
+    }
+    .card-group p{
+        color: #969696!important;
+        text-align: center;
+        font-size: 1em;
+        line-height: 26px;
+        margin: 0 0 20px;
+    }
+    .card{
+        width: 264px;
+    margin-right: 30px;
+    
+    }
+     /* <!-- <---------------Work-------------> */
+  
+     #work{
+         position: relative;
+         background-color: #504bfd !important ;
+         padding-top: 5rem;
+         padding-bottom: 2rem;
+         color:white;
+
+                
+
+     }
+     .work-header{
+         justify-content: center;
+     }
+     .work-content{
+         text-align: center;
+     }
+     .work-span{
+         color: rgb(180, 179, 179);
+         font-size: 1.15em !important;
+         letter-spacing: 2px!important;
+         font-weight: 400;
+        
+        
+     }
+     .work-h2{
+         font-weight: 700;
+        font-size: 2.75em!important;
+        line-height: 42px;
+    margin: 0 0 32px;
+    letter-spacing: -.05em;
+
+     }
+     .work-p{
+        line-height: 26px;
+        margin: 0 0 20px;
+        font-size: 1.15em !important;
+        font-weight: 300!important;
+     }
+     .slider-1{
+         width: 1200px;
+         display: inline-flex;
+     }
+     .slick-track{
+         transform: none;
+         -webkit-transform: none;
+         -moz-transform: none;
+         -ms-transform: none;
+         -o-transform: none;
+}
+     .slider-iteam-1{
+        width: 361.05px !important;
+        margin-right: 25px;
+     }
+     
+  .thumb-info{
+      display: block;
+      position: relative;
+      max-width: 100%;
+      text-decoration: none;
+      background-color: #fff;
+  }
+  /* <---------------Pricing-------------> */
+#pricing {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+  }
+  .pricing-span{
+font-size: 1.15em;
+font-weight: 500;
+color: #969696!important;
+letter-spacing: 2px!important;
+  }
+  .pricing-h2{
+      font-weight: 700;
+      font-size: 2.75em;
+      line-height: 42px;
+      margin: 0 0 32px;
+      color: #212529;
+  }
+  .pricing-p{
+      font-size: 1.15em;
+      font-weight: 300;
+      color: #777;
+      line-height: 26px;
+      margin: 0 0 20px;
+  }
+  .pricing-table{
+    position: relative;
+    z-index: 1;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: #777;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .plan{
+  margin-left: -16px;
+  margin-right: -15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0px 0px 40px rgb(200 200 200 / 30%);
+  border-radius:0 ;
+  background-color: #fff;
+  }
+  .plan-header{
+      background-color: #f1f3f7;
+      padding: 1.7rem 1rem;
+
+  }
+  .plan-header h3{
+      color: #999999;
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 4px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 0;
+  }
+  .plan-price{
+      border: 0;
+      background: transparent;
+      padding-bottom: 0.2rem;
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 0.8rem;
+      text-align: center;
+  }
+  .price{
+      font-size: 3rem;
+      font-weight: 800;
+      align-items: flex-end;
+      display: flex;
+      justify-content: center;
+      line-height: 1;
+      color: #212529;
+      min-height: 28px;
+  }
+  .price-unit{
+      font-weight: 400;
+      font-size: 50%;
+      line-height: 1.4;
+      color: #212529;
+  }
+  .price-label{
+      text-transform: none;
+      font-size: 1.3rem;
+      font-family: 'playfair display, san-serif';
+      margin-top: 1rem;
+      color: #777;
+      line-height: 1;
+  }
+  .plan-features{
+      border: 0;
+      padding: 0.8rem;
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+      line-height: 26px;
+      
+  }
+  .plan-features ul{
+      padding: 0 0.5rem;
+      margin-bottom: 0;
+      text-align: center;
+      list-style: none;
+    
+  }
+  .plan-features li{
+      font-size: 1em;
+      border-bottom: 0;
+      line-height: 2.9;
+      list-style: none;
+      
+  }
+  .plan-footer{
+      padding: 0.7rem 0.8rem 2.5rem;
+  text-align: center;
+    }
+    .plan-footer a{
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 1em;
+    }
+    
+  /* <---------------Blog-------------> */
+  .blogg{
+      
+      background-color:#ebebf1;
+  }
+  .blog-span{
+      font-size: 1.15em;
+      font-weight: #969696;
+      letter-spacing: 2px;
+  }
+  .blog-h2{
+      font-weight: 700;
+      font-size: 2.75em;
+  }
+  .article-div{
+      line-height: 1;
+      font-size: .8em;
+
+  }
+  .blog-date{
+     color: #777;
+     text-decoration: none;
+  }
+  .blog-comments{
+      padding: 0 10px;
+      margin: 0 10px;
+      color: #777;
+      border-right: 1px solid #777;
+      border-left: 1px solid #777;
+  }
+  .blog-span{
+      color: #777;
+      line-height: 1;
+      font-size: .8em;
+
+  }
+  .blog-h4{
+      font-weight: 700;
+      font-size: 1.8em;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      
+  }
+  .blog-h4 a{
+      color: #212529;
+      font-weight: 700;
+      font-size: 0.9em;
+      line-height: 27px;
+  }
+  .blog-p{
+      font-family: 'Playfair Display', sans-serif !important;
+      font-size: 1.2em;
+      color: #777;
+      line-height: 26px;
+      margin: 0 0 20px;
+  }
+  .blog-p a{
+      
+      font-weight: 600;
+  }
+  .blog-footer{
+      font-weight: 650;
+      font-size: 14px;
+      line-height: 26px;
+
+  }
+  .blog-slider-1{
+      width: 100%;
+      display: inline-flex;
+      align-items: center;
+  justify-content: center;
+  }
+  .blog-slider-iteam-1{
+      width: 380px ;
+      margin-right: 60px;
+  }
+  /* <---------------Footer-------------> */
+  footer{
+      background-color: #212529;
+     color: white;
+  }
+  .footer-span-1{
+      font-size: 1.15em;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: white;
+  }
+  .footer-h2{
+      color: #fff;
+      font-weight: 700;
+      font-size: 2.74em;
+      letter-spacing: -.05em;
+      font-family: '"Poppins", sans-serif"';
+  }
+  .footer-left-icon-1 , .footer-left-icon-2,.footer-left-icon-3, .footer-left-icon-4 h4{
+      color: white;
+font-weight: 700;
+font-size: 1.2em;
+font-family: "Poppins", sans-serif;
+  }
+  .footer-p{
+      font-weight: 300;
+      font-size: 0.9em;
+      line-height: 26px;
+      margin: 0 0 20px;
+      color: #999999;
+    
+  }
+  .footer-a{
+      text-decoration: none;
+      color: #999999;
+  }
+  .right-footer-span{
+      color: white;
+      font-size: 1.15em;
+      font-weight: 400;
+      color: #999999;
+      letter-spacing: 2px;
+      line-height: 26px;
+      text-align: center;
+  }
+  .right-footer-h2{
+      color: white;
+  }
+  .form-group{
+      margin-bottom: 1rem;
+  }
+  .custom-form-style-1 .form-control{
+      height: calc(1.5em + 1.85rem + 2px);
+      padding: 0.975rem 1.25rem;
+  }
+  .form-control{
+      border-color: rgba(0,0,0,.09);
+  }
+  .btn-gradient:not(.btn-outline){
+      background: linear-gradient(135deg,#0088cc 0%,#504bfd 80%)!important;
+      color: #fff;
+      font-weight: 700!important;
+      font-size: 1em!important;
+  }
+  .form-control:not(.form-control-sm):not(.form-control-lg){
+      font-size: .85rem;
+      line-height: 1.85;
+  }
+  .custom-form-style-1 textarea.form-control{
+      height: auto;
+  }
+  .custom-form-style-1 .form-control{
+      padding: 0.975rem 1.25rem;
+  }
+  textarea {
+    resize: vertical;
+}
+  .btn-gradient:not(.btn-outline){
+      border: none;
+  }
+
+
+ .side-bar{
+    color: #fff!important;
+  
+    display: block;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    top: 283px;
+    width: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0 4px 4px 0;
+    z-index: 9999;
+  }  
+ 
+  .side-bar img{
+       width: 30px;
+     
+  }
+  /*
+  <---------------------shpae-divider-1---------> */
+    .shapedividers_com-9696{
+        overflow:hidden;
+        position:relative;
+        }
+        .shapedividers_com-9696::before{
+        content:'';
+        font-family:'shape divider from ShapeDividers.com';
+        position: absolute;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        top: -1px;
+        z-index: 3;
+        pointer-events: none;
+        background-repeat: no-repeat; 
+        background-size: 100% 90px;
+        background-position: 50% 0%;    
+        background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23fbd8c2"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23fbd8c2"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23fbd8c2"/></svg>'); 
+        }
+        
+        @media (min-width:768px){
+        .shapedividers_com-9696::before{
+        background-size: 100% 90px;
+        background-position: 50% 0%;   
+        }  
+        }
+         
+        @media (min-width:1025px){
+        .shapedividers_com-9696::before{ 
+        bottom: -0.1vw;
+        left: -0.1vw;
+        right: -0.1vw;
+        top: -0.1vw; 
+        background-size: 256% 279px;
+        background-position: 66% 100%;  
+        background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M35.28 1.16c-3.17-.8-7.3.4-10.04.56-2.76.17-9.25-1.47-12.68-1.3-3.42.16-4.64.84-7.04.86C3.12 1.31 0 .4 0 .4v1.77h35.28z" fill="%23ffffff"/></svg>'); 
+        }
+        }
+        @media (min-width:2100px){
+        .shapedividers_com-9696::before{
+        background-size: 256% calc(2vw + 279px);
+        }
+        }
+         
+      /*  <---------------------shpae-divider-2---------> */
+
+      .shapedividers_com-3725{
+        overflow:hidden;
+        position:relative;
+        }
+        .shapedividers_com-3725::before{
+        content:'';
+        font-family:'shape divider from ShapeDividers.com';
+        position: absolute;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        top: -1px;
+        z-index: 3;
+        pointer-events: none;
+        background-repeat: no-repeat; 
+        background-size: 100% 90px;
+        background-position: 50% 0%;    
+        background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23fbd8c2"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23fbd8c2"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23fbd8c2"/></svg>'); 
+        }
+        
+        @media (min-width:768px){
+        .shapedividers_com-3725::before{
+        background-size: 100% 90px;
+        background-position: 50% 0%;   
+        }  
+        }
+         
+        @media (min-width:1025px){
+        .shapedividers_com-3725::before{ 
+        bottom: -0.1vw;
+        left: -0.1vw;
+        right: -0.1vw;
+        top: -0.1vw; 
+        background-size: 185% 187px;
+        background-position: 16% 0%;  
+        background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" fill="%23ffffff"/></svg>'); 
+        }
+        }
+        @media (min-width:2100px){
+        .shapedividers_com-3725::before{
+        background-size: 185% calc(2vw + 187px);
+        }
+        }
+         /*  <---------------------shpae-divider-3---------> */
+
+        .shapedividers_com-9408{
+            overflow:hidden;
+            position:relative;
+            }
+            .shapedividers_com-9408::before{
+            content:'';
+            font-family:'shape divider from ShapeDividers.com';
+            position: absolute;
+            bottom: -1px;
+            left: -1px;
+            right: -1px;
+            top: -1px;
+            z-index: 3;
+            pointer-events: none;
+            background-repeat: no-repeat; 
+            background-size: 100% 90px;
+            background-position: 50% 0%;    
+            background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23fbd8c2"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23fbd8c2"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23fbd8c2"/></svg>'); 
+            }
+            
+            @media (min-width:768px){
+            .shapedividers_com-9408::before{
+            background-size: 100% 90px;
+            background-position: 50% 0%;   
+            }  
+            }
+             
+            @media (min-width:1025px){
+            .shapedividers_com-9408::before{ 
+            bottom: -0.1vw;
+            left: -0.1vw;
+            right: -0.1vw;
+            top: -0.1vw; 
+            background-size: 185% 122px;
+            background-position: 16% 0%;  
+            background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" fill="%23ffffff"/></svg>'); 
+            }
+            }
+            @media (min-width:2100px){
+            .shapedividers_com-9408::before{
+            background-size: 185% calc(2vw + 122px);
+            }
+            }
+             
+/*  <---------------------shpae-divider-4---------> */
+
+            .shapedividers_com-1904{
+                overflow:hidden;
+                position:relative;
+                }
+                .shapedividers_com-1904::before{
+                content:'';
+                font-family:'shape divider from ShapeDividers.com';
+                position: absolute;
+                bottom: -1px;
+                left: -1px;
+                right: -1px;
+                top: -1px;
+                z-index: 3;
+                pointer-events: none;
+                background-repeat: no-repeat; 
+                background-size: 100% 90px;
+                background-position: 50% 0%;    
+                background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23fbd8c2"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23fbd8c2"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23fbd8c2"/></svg>'); 
+                }
+                
+                @media (min-width:768px){
+                .shapedividers_com-1904::before{
+                background-size: 100% 90px;
+                background-position: 50% 0%;   
+                }  
+                }
+                 
+                @media (min-width:1025px){
+                .shapedividers_com-1904::before{ 
+                bottom: -0.1vw;
+                left: -0.1vw;
+                right: -0.1vw;
+                top: -0.1vw; 
+                background-size: 264% 200px;
+                background-position: 16% 0%;  
+                background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" fill="%23ffffff"/></svg>'); 
+                }
+                }
+                @media (min-width:2100px){
+                .shapedividers_com-1904::before{
+                background-size: 264% calc(2vw + 200px);
+                }
+                }
+                 
+/*  <---------------------shpae-divider-5---------> */
+
+                .shapedividers_com-3073{
+                    overflow:hidden;
+                    position:relative;
+                    }
+                    .shapedividers_com-3073::before{
+                    content:'';
+                    font-family:'shape divider from ShapeDividers.com';
+                    position: absolute;
+                    bottom: -1px;
+                    left: -1px;
+                    right: -1px;
+                    top: -1px;
+                    z-index: 3;
+                    pointer-events: none;
+                    background-repeat: no-repeat; 
+                    background-size: 100% 90px;
+                    background-position: 50% 0%;    
+                    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23fbd8c2"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23fbd8c2"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23fbd8c2"/></svg>'); 
+                    }
+                    
+                    @media (min-width:768px){
+                    .shapedividers_com-3073::before{
+                    background-size: 100% 90px;
+                    background-position: 50% 0%;   
+                    }  
+                    }
+                     
+                    @media (min-width:1025px){
+                    .shapedividers_com-3073::before{ 
+                    bottom: -0.1vw;
+                    left: -0.1vw;
+                    right: -0.1vw;
+                    top: -0.1vw; 
+                    background-size: 264% 200px;
+                    background-position: 16% 100%;  
+                    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M35.28 1.16c-3.17-.8-7.3.4-10.04.56-2.76.17-9.25-1.47-12.68-1.3-3.42.16-4.64.84-7.04.86C3.12 1.31 0 .4 0 .4v1.77h35.28z" fill="%23ffffff"/></svg>'); 
+                    }
+                    }
+                    @media (min-width:2100px){
+                    .shapedividers_com-3073::before{
+                    background-size: 264% calc(2vw + 200px);
+                    }
+                    }
+                     
+
+
+/*  <---------------------shpae-divider-6---------> */
+
+                  
+                         
+
+
+
+.shapedividers_com-2529{
+    overflow:hidden;
+    position:relative;
+    }
+    .shapedividers_com-2529::before{
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat; 
+    background-size: 100% 90px;
+    background-position: 50% 0%;    
+    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23fbd8c2"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23fbd8c2"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23fbd8c2"/></svg>'); 
+    }
+    
+    @media (min-width:768px){
+    .shapedividers_com-2529::before{
+    background-size: 100% 90px;
+    background-position: 50% 0%;   
+    }  
+    }
+     
+    @media (min-width:1025px){
+    .shapedividers_com-2529::before{ 
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 114% 77px;
+    background-position: 50% 0%;  
+    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" fill="%23ffffff"/></svg>'); 
+    }
+    }
+    @media (min-width:2100px){
+    .shapedividers_com-2529::before{
+    background-size: 114% calc(2vw + 77px);
+    }
+    }
+ 
+
+/*  <---------------------shpae-divider-7---------> */
+
+    .shapedividers_com-5480{
+        overflow:hidden;
+        position:relative;
+        }
+        .shapedividers_com-5480::before{
+        content:'';
+        font-family:'shape divider from ShapeDividers.com';
+        position: absolute;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        top: -1px;
+        z-index: 3;
+        pointer-events: none;
+        background-repeat: no-repeat; 
+        background-size: 100% 90px;
+        background-position: 50% 0%;    
+        background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23fbd8c2"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23fbd8c2"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23fbd8c2"/></svg>'); 
+        }
+        /*  <---------------------Media-Query---------> */
+        @media (max-width:700px){
+            .navbar-nav {
+              
+              background-color: white;
+              
+               
+                
+            }
+           
+            .right-nav{
+               display: none;
+                
+            
+            
+            }
+        }
+        @media (min-width:768px){
+        .shapedividers_com-5480::before{
+        background-size: 100% 90px;
+        background-position: 50% 0%;   
+        }  
+        }
+         
+        @media (min-width:1025px){
+        .shapedividers_com-5480::before{ 
+        bottom: -0.1vw;
+        left: -0.1vw;
+        right: -0.1vw;
+        top: -0.1vw; 
+        background-size: 100% 60px;
+        background-position: 50% 100%; 
+        transform: rotateY(180deg); 
+        background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -0.1 35.28 2.17" preserveAspectRatio="none"><path d="M35.28.31c-2.57.84-7.68.3-11.8.43-4.1.12-6.85.61-9.57.28C11.18.69 8.3-.16 5.3.02 2.3.22.57.85 0 .87v1.2h35.28z" fill="%23ffffff"/></svg>'); 
+        }
+        }
+        @media (min-width:2100px){
+        .shapedividers_com-5480::before{
+        background-size: 100% calc(2vw + 60px);
+        }
+        }
+         
+
+
+    
