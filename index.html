@@ -461,7 +461,7 @@
                         </ul>
                     </div>
                     <div class="plan-footer">
-                        <a href="#" class="btn btn-gradient text-3 font-weight-bold btn-px-5 py-3">Get
+                        <a href="#" class="btn btn-dark text-3 font-weight-bold btn-px-5 py-3">Get
                             Started</a>
                     </div>
                 </div>
@@ -861,6 +861,22 @@
     // instead of a settings object
   ]
 });
+</script>
+<script>
+    $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 50) {
+        $("#header").css("background" , "blue");  
+       
+	  }
+
+	  else{
+        $("#header").css("background" , "transparent");
+        
+	  }
+  })
+})
 </script>
 </body>
 

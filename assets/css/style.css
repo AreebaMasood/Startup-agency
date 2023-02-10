@@ -457,6 +457,9 @@ letter-spacing: 2px!important;
         font-weight: 700;
         font-size: 1em;
     }
+    .plan-footer a:hover{
+        background-color: #0d6efd;
+    }
     
   /* <---------------Blog-------------> */
   .blogg{
